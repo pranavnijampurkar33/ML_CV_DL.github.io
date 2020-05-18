@@ -16,10 +16,11 @@ body {
 table {
   border: 1px solid #ccc;
   border-collapse: collapse;
-  margin: 0;
+  margin-left:auto;margin-right:auto;
   padding: 0;
-  width: 100%;
-  margin-top:150px;
+  width: 80%;
+  margin-top:5px;
+  margin-bottom:25px;
 }
 
 table caption {
@@ -35,7 +36,6 @@ table tr {
 
 table th, table td {
   padding: .625em;
-  text-align: center;
 }
 
 table th {
@@ -59,11 +59,15 @@ table tr {
   margin-bottom: .625em;
 }
 
+table th {
+  text-align: center;
+}
+
 table td {
   border-bottom: 1px solid #ddd;
   display: block;
   font-size: .8em;
-  text-align: right;
+  text-align: left;
 }
 
 table td:before {
@@ -79,58 +83,179 @@ table td:last-child { border-bottom: 0; }
 </head>
 
 <body>
-<div id="css-script-menu">
-  <div class="css-script-center">
-    <ul>
-      <li><a href="#">Download</a></li>
-      <li><a href="#">CSS Script</a></li>
-    </ul>
-    <div class="css-script-ads">
-    <script type="text/javascript"><!--
-</script>
-      </div>
-    <div class="css-script-clear"></div>
+  <div >
+    <a href="#dl" style="text-decoration:none"><h2>Deep Learning </h2></a>
+    <table>
+      <caption>
+      Deep learning resources
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" style="width:2%">Sr.No.</th>
+          <th scope="col" style="width:30%">Course/Resource Name</th>
+          <th scope="col" style="width:40%">Description</th>
+          <th scope="col" >Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row" data-label="sr-no">1</td>
+          <td data-label="resource-name">Example 1</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#2">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">2</td>
+          <td data-label="resource-name">Example 2</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#2">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">3</td>
+          <td data-label="resource-name">Example 3</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#3">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">4</td>
+          <td data-label="resource-name">Example 4</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#4">Link</a></td>
+        </tr>
+      </tbody>
+    </table>
   </div>
-</div>
-<table>
-  <caption>
-  Pure HTML5 / CSS3 Responsive Table Demo
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">Account</th>
-      <th scope="col">Due Date</th>
-      <th scope="col">Amount</th>
-      <th scope="col">Period</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td scope="row" data-label="Account">Visa - 3412</td>
-      <td data-label="Due Date">04/01/2016</td>
-      <td data-label="Amount">$1,190</td>
-      <td data-label="Period">03/01/2016 - 03/31/2016</td>
-    </tr>
-    <tr>
-      <td scope="row" data-label="Account">Visa - 6076</td>
-      <td data-label="Due Date">03/01/2016</td>
-      <td data-label="Amount">$2,443</td>
-      <td data-label="Period">02/01/2016 - 02/29/2016</td>
-    </tr>
-    <tr>
-      <td scope="row" data-label="Account">Corporate AMEX</td>
-      <td data-label="Due Date">03/01/2016</td>
-      <td data-label="Amount">$1,181</td>
-      <td data-label="Period">02/01/2016 - 02/29/2016</td>
-    </tr>
-    <tr>
-      <td scope="row" data-label="Acount">Visa - 3412</td>
-      <td data-label="Due Date">02/01/2016</td>
-      <td data-label="Amount">$842</td>
-      <td data-label="Period">01/01/2016 - 01/31/2016</td>
-    </tr>
-  </tbody>
-</table>
+  <hr>
+  <div >
+    <a href="#cvnn" style="text-decoration:none"><h2>Computer Vision </h2></a>
+    <table>
+      <caption>
+      Computer Vision/ Basics of image processing 
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" style="width:2%">Sr.No.</th>
+          <th scope="col" style="width:30%">Course/Resource Name</th>
+          <th scope="col" style="width:40%">Description</th>
+          <th scope="col" >Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row" data-label="sr-no">1</td>
+          <td data-label="resource-name">Python for Computer Vision with OpenCV and Deep Learning</td>
+          <td data-label="description">Basics of Python required for CV and deep learning. Check with pranav for udemy access.</td>
+          <td data-label="links"><a href="https://www.udemy.com/course/python-for-computer-vision-with-opencv-and-deep-learning/">Course link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">2</td>
+          <td data-label="resource-name">Modern Computer Vision-Drizzle</td>
+          <td data-label="description">This contains free youtube courses for beginner and advance Modern Computer vision
+          <td data-label="links"><a href="https://deep-learning-drizzle.github.io/index.html#cvnn">Site link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">3</td>
+          <td data-label="resource-name">Example 3</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#3">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">4</td>
+          <td data-label="resource-name">Example 4</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#4">Link</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+  <div >
+    <a href="#dl" style="text-decoration:none"><h2>Machine Learning </h2></a>
+    <table>
+      <caption>
+      Machine Learning resources
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" style="width:2%">Sr.No.</th>
+          <th scope="col" style="width:30%">Course/Resource Name</th>
+          <th scope="col" style="width:40%">Description</th>
+          <th scope="col" >Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row" data-label="sr-no">1</td>
+          <td data-label="resource-name">Example 1</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#2">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">2</td>
+          <td data-label="resource-name">Example 2</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#2">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">3</td>
+          <td data-label="resource-name">Example 3</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#3">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">4</td>
+          <td data-label="resource-name">Example 4</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#4">Link</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+  <div >
+    <a href="#dl" style="text-decoration:none"><h2> Name </h2></a>
+    <table>
+      <caption>
+      Deep learning resources
+      </caption>
+      <thead>
+        <tr>
+          <th scope="col" style="width:2%">Sr.No.</th>
+          <th scope="col" style="width:30%">Course/Resource Name</th>
+          <th scope="col" style="width:40%">Description</th>
+          <th scope="col" >Links</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td scope="row" data-label="sr-no">1</td>
+          <td data-label="resource-name">Example 1</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#2">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">2</td>
+          <td data-label="resource-name">Example 2</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#2">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">3</td>
+          <td data-label="resource-name">Example 3</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#3">Link</a></td>
+        </tr>
+        <tr>
+          <td scope="row" data-label="sr-no">4</td>
+          <td data-label="resource-name">Example 4</td>
+          <td data-label="description">Description</td>
+          <td data-label="links"><a href="#4">Link</a></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <hr>
+    
 </body><script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
